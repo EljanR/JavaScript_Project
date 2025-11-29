@@ -27,3 +27,13 @@
     background-color: inherit;
     color: #212121E5;
 }
+.categories_header{
+    display: flex;
+    justify-content: space-between;
+}
+.Categories{
+    width: 326px;
+height: 330px;
+border-radius: 8px;
+border: 1px solid #D0D0D0;
+}
