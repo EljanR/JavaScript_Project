@@ -1,0 +1,29 @@
+.Home_bags{
+    display: flex;
+    align-items: center;
+    gap: 0 3px;
+    left:0;
+}
+.icon1{
+    font-weight: bold;
+}
+.Home_bags p{
+    margin-top: 8px;
+    color: #1D1D1DBF;
+}
+.home_bags_header{
+    display: flex;
+    justify-content: space-between;
+}
+.home_bags_header_right{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.home_bags_header_right p{
+    margin-top:12px;
+}
+.dropdown_shoulder .btn-secondary{
+    background-color: inherit;
+    color: #212121E5;
+}
