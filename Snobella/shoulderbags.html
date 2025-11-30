@@ -39,8 +39,8 @@
                     Profile
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Log In</a></li>
-                    <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                    <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                    <li><a class="dropdown-item" href="register.html ">Sign Up</a></li>
                     <li><a class="dropdown-item d-none" href="#">Log Out</a></li>
                 </ul>
             </div>
@@ -94,35 +94,93 @@
                     <div class="container categories_header">
                         <h2>Categories</h2>
                         <img src="./assest/icons/chevron-left.svg" alt="">
-                        
+
                     </div>
                     <div class="container categories_header_p">
-                    <p>Backpacks</p>
-                    <p>Belt Bags</p>
-                    <p>Handbags</p>
-                    <p>Shoulder bags</p>
-                    <p>Evening bags</p>
-                    <p>Postman bag</p>
+                        <p>Backpacks</p>
+                        <p>Belt Bags</p>
+                        <p>Handbags</p>
+                        <p>Shoulder bags</p>
+                        <p>Evening bags</p>
+                        <p>Postman bag</p>
                     </div>
                 </div>
-                 <div class="Categories">
+                <div class="Categories">
                     <div class="container categories_header">
                         <h2>Material</h2>
                         <img src="./assest/icons/chevron-left.svg" alt="">
-                        
+
                     </div>
                     <div class="container categories_header_p">
-                    <p>Backpacks</p>
-                    <p>Belt Bags</p>
-                    <p>Handbags</p>
-                    <p>Shoulder bags</p>
-                    <p>Evening bags</p>
-                    <p>Postman bag</p>
-                    <div class="input-group-text">
-    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-  </div>
+                        <p>Cloth</p>
+                        <p>Cotton</p>
+                        <p>Denim - Jeans</p>
+                        <p>Exotic Leathers</p>
+                        <p>Faux Fur</p>
+                        <p>Glitter</p>
+                        <!-- <div class="input-group-text">
+                            <input class="form-check-input mt-0" type="checkbox" title="salam"
+                                aria-label="Checkbox for following text input">
+                        </div> -->
                     </div>
+
                 </div>
+                <div class="Categories2">
+                    <div class="container categories_header">
+                        <h2>Price</h2>
+                        <img src="./assest/icons/chevron-left.svg" alt="">
+
+                    </div>
+                    <div class="container categories_header_input">
+                        <input type="number">
+                        <p>-</p>
+                        <input type="number">
+                        <div class="search2_img">
+                            <img class="search2" src="./assest/icons/search 2.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Categories2">
+                    <div class="container categories_header">
+                        <h2>Size</h2>
+                        <img src="./assest/icons/chevron-left.svg" alt="">
+
+                    </div>
+                    <div class="container categories_header_input">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+
+                    </div>
+
+                </div>
+                <div class="Categories2">
+                    <div class="container categories_header">
+                        <h2>Color</h2>
+                        <img src="./assest/icons/chevron-left.svg" alt="">
+
+                    </div>
+                    <div class="container categories_header_color">
+                        <div class="reng1"></div>
+                        <div class="reng2"></div>
+                        <div class="reng3"></div>
+                        <div class="reng4"></div>
+                        <div class="reng5"></div>
+                        <div class="reng6"></div>
+                        <div class="reng7"></div>
+                        <div class="reng8"></div>
+                        <div class="reng9"></div>
+                        <div class="reng10"></div>
+                        <div class="reng11"></div>
+                        <div class="reng12"></div>
+                        <div class="reng13"></div>
+
+                    </div>
+
+                </div>
+
+
             </div>
             <div class="col-8 ">
                 <div class="row">
@@ -385,6 +443,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
     </script>
+    <script>
+        const colors = document.querySelectorAll(".categories_header_color div");
+
+        colors.forEach(item => {
+            item.addEventListener("click", () => {
+                // Hamısından active sil
+                colors.forEach(c => c.classList.remove("active"));
+
+                // Click olunanı aktiv et
+                item.classList.add("active");
+            });
+        });
+    </script>
+    
 </body>
 
 </html>

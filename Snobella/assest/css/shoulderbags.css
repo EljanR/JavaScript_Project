@@ -1,39 +1,132 @@
-.Home_bags{
+.Home_bags {
     display: flex;
     align-items: center;
     gap: 0 3px;
-    left:0;
+    left: 0;
 }
-.icon1{
+
+.icon1 {
     font-weight: bold;
 }
-.Home_bags p{
+
+.Home_bags p {
     margin-top: 8px;
     color: #1D1D1DBF;
 }
-.home_bags_header{
+
+.home_bags_header {
     display: flex;
     justify-content: space-between;
 }
-.home_bags_header_right{
+
+.home_bags_header_right {
     display: flex;
     column-gap: 20px;
     align-items: center;
 }
-.home_bags_header_right p{
-    margin-top:12px;
+
+.home_bags_header_right p {
+    margin-top: 12px;
 }
-.dropdown_shoulder .btn-secondary{
+
+.dropdown_shoulder .btn-secondary {
     background-color: inherit;
     color: #212121E5;
 }
-.categories_header{
+
+.categories_header {
     display: flex;
     justify-content: space-between;
 }
-.Categories{
+
+.Categories {
     width: 326px;
-height: 330px;
+    height: 330px;
+    border-radius: 8px;
+    border: 1px solid #D0D0D0;
+}
+
+.categories_header2 {
+    display: flex;
+    justify-content: space-between;
+}
+.Categories2{
+   width: 326px;
+    height: 146px;
+    border-radius: 8px;
+    border: 1px solid #D0D0D0; 
+    margin-top: 5%;
+}
+.categories_header_input{
+    display: flex;
+ justify-content: space-between;   
+ align-items: center;
+}
+.categories_header_input input{
+    width: 72px;
+height: 40px;
 border-radius: 8px;
-border: 1px solid #D0D0D0;
+
+border-width: 1px;
+
+}
+.search2{
+position: absolute;
+right: 12px;
+top: 10px;
+
+
+}
+.search2_img{
+    width: 45px;
+height: 40px;
+border-radius: 8px;
+background-color: #EF544F;
+position: relative;
+cursor: pointer;
+}
+.categories_header_color{
+    display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+.reng1,.reng2,.reng3,.reng4,.reng5,.reng6,.reng7,.reng8,.reng9,.reng10,.reng11,.reng12,.reng13 {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.categories_header_color div.active {
+    border: 2px solid black;
+}
+.reng1{
+background-color: #273142BF;
+}
+.reng2{
+background-color: #0085FF;
+}
+.reng3{
+background-color: #3D2A33;
+}.reng4{
+background-color: #773838;
+}.reng5{
+background-color:#000000 ;
+}.reng6{
+background-color: #307E46;
+}.reng7{
+background-color: #0085FF;
+}.reng8{
+background-color:#FF6B00 ;
+}.reng9{
+background-color:#D6B73B ;
+}.reng10{
+background-color:#7C4DFF ;
+}.reng11{
+background-color:#F75145 ;
+}.reng12{
+background-color:#842759 ;
+}
+.reng13{
+background-color: #895C31;
 }
