@@ -368,3 +368,127 @@ margin-top: 23%;
 .footer_area{
 margin-top: 8%;
 }
+@media (max-width: 1200px) {
+    .search_bar {
+        width: 350px;
+    }
+
+    .big_cards {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .big_card {
+        width: 330px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .search_bar {
+        width: 100%;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .bags_area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .transport_area {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .right_area {
+        display: none;
+    }
+
+    .Header_area {
+        justify-content: center;
+    }
+
+    .profile,
+    .Wishlist,
+    .Basket {
+        flex-direction: column;
+    }
+
+    .bags_text {
+        font-size: 18px;
+    }
+
+    .big_card {
+        width: 100%;
+    }
+
+    .big_cards_button {
+        width: 100%;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 100%;
+    }
+
+    .alt_header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar h1 {
+        font-size: 24px;
+    }
+
+    .bags_text {
+        font-size: 16px;
+    }
+
+    .bag {
+        width: 100%;
+    }
+
+    .shopnow {
+        width: 100%;
+    }
+
+    .transport_area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_area .row {
+        text-align: center;
+    }
+}
